@@ -1,19 +1,35 @@
 import React, { Component} from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Header from "./components/header";
-import Nav from "./components/nav";
-import Profile from "./components/profile";
+
+import Header from "./components/Header/header";
+import Nav from "./components/Navbar/nav";
+import Profile from "./components/Profile/profile";
+import Dialogs from "./components/Dialogs/dialogs";
+import News from "./components/News/news";
+import Music from "./components/Music/music";
+import Settings from "./components/Settings/settings";
+
+import {BrowserRouter, Route} from "react-router-dom";
 
 
 
-function App() {
+
+const App = (props) => {
+
     return (
-        <div className='app-wrapper'>
-          <Header />
-          <Nav />
-          <Profile />
-        </div>
+        <BrowserRouter>
+            <div className='app-wrapper'>
+                <Header />
+                <Nav />
+                <div className='app-wrapper-content'>
+                    <Route path='/dialogs' render={()=><Dialogs dialogs={props.dialogs} message={props.message}/>}/>
+                    <Route path='/profile' render={()=><Profile posts={props.posts}/>}/>
+                    <Route path='/news' render={()=><News/>}/>
+                    <Route path='/music' render={()=><Music/>}/>
+                    <Route path='/settings' render={()=><Settings/>}/>
+                </div>
+            </div>
+        </BrowserRouter>
     );
 }
 

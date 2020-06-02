@@ -3459,7 +3459,7 @@ cssnano-preset-default@^4.0.7:
     postcss-normalize-charset "^4.0.1"
     postcss-normalize-display-values "^4.0.2"
     postcss-normalize-positions "^4.0.2"
-    postcss-normalize-repeat-style "^4.0.2"
+    postcss-normalize-repeat-s "^4.0.2"
     postcss-normalize-string "^4.0.2"
     postcss-normalize-timing-functions "^4.0.2"
     postcss-normalize-unicode "^4.0.1"
@@ -8082,7 +8082,7 @@ postcss-normalize-positions@^4.0.2:
 
 postcss-normalize-repeat-style@^4.0.2:
   version "4.0.2"
-  resolved "https://registry.yarnpkg.com/postcss-normalize-repeat-style/-/postcss-normalize-repeat-style-4.0.2.tgz#c4ebbc289f3991a028d44751cbdd11918b17910c"
+  resolved "https://registry.yarnpkg.com/postcss-normalize-repeat-s/-/postcss-normalize-repeat-s-4.0.2.tgz#c4ebbc289f3991a028d44751cbdd11918b17910c"
   integrity sha512-qvigdYYMpSuoFs3Is/f5nHdRLJN/ITA7huIoCyqqENJe9PvPmLhNLMu7QTjPdtnVf6OcYYO5SHonx4+fbJE1+Q==
   dependencies:
     cssnano-util-get-arguments "^4.0.0"
@@ -8709,7 +8709,7 @@ react-scripts@3.4.1:
     resolve-url-loader "3.1.1"
     sass-loader "8.0.2"
     semver "6.3.0"
-    style-loader "0.23.1"
+    s-loader "0.23.1"
     terser-webpack-plugin "2.3.5"
     ts-pnp "1.1.6"
     url-loader "2.3.0"
@@ -9885,7 +9885,7 @@ strip-json-comments@^3.0.1:
 
 style-loader@0.23.1:
   version "0.23.1"
-  resolved "https://registry.yarnpkg.com/style-loader/-/style-loader-0.23.1.tgz#cb9154606f3e771ab6c4ab637026a1049174d925"
+  resolved "https://registry.yarnpkg.com/s-loader/-/s-loader-0.23.1.tgz#cb9154606f3e771ab6c4ab637026a1049174d925"
   integrity sha512-XK+uv9kWwhZMZ1y7mysB+zoihsEj4wneFWAS5qoiLwzW0WzSqMrrsIy+a3zkQJq0ipFtBpX5W3MqyRIBF/WFGg==
   dependencies:
     loader-utils "^1.1.0"

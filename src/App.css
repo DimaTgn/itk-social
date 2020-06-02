@@ -1,7 +1,8 @@
 .app-wrapper{
   margin: 0 auto;
   display: grid;
-  width: 1200px;
+  width: 100%;
+  max-width: 100%;
 
 
   grid-template-areas:
@@ -9,23 +10,12 @@
           "nav content";
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
-  /*grid-gap: 10px;*/
+  grid-gap: 10px;
 }
 
-.app-header{
-  grid-area: header;
-  background-color: green;
-}
-.app-header img{
-  width: 20px;
-}
-
-.app-nav{
-  grid-area: nav;
-  background-color: silver;
-}
-
-.app-content{
+.app-wrapper-content{
   grid-area: content;
-  background-color: lightblue;
+  background-color: rgba(130,105,91,0.76);
 }
+
+
