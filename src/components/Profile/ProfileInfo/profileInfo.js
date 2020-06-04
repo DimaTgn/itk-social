@@ -6,7 +6,7 @@ const ProfileInfo = () =>{
     return (
         <div>
             <div>
-                <img class={s.heater} src="https://dcea.ru/wp-content/uploads/2019/10/fejlec.jpg"/>
+                <img className={s.heater} src="https://dcea.ru/wp-content/uploads/2019/10/fejlec.jpg"/>
             </div>
             <div className={s.description}>
                 ava + description
